@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0B0E;
+}
+
+.heaederBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+    padding: 14px 0px 14px 0px;
+}
+
+.stakes {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.paraghraps {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.mainflex {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.newinternet {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aiComponents {
+    display: flex;
+    max-width: 564px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.ailayer {
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.agents {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 546px;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    max-width: 564px;
+    width: 100%;
+}
+
+.dagent {
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #FF371A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.aI {
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background: none;
+    cursor: pointer;
+}
+
+.photos {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.innovateAi {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.create {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.allBoxes {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.brain {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.brainText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 476px;
+    width: 100%;
+}
+
+.allBoxes h2 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.allBoxes p {
+    color: #797979;
+}
+
+.setting {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.settingText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 269px;
+    width: 100%;
+}
+
+.compute {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #191919;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    max-height: 254px;
+    height: 100%;
+}
+
+.settingsText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 356px;
+    width: 100%;
+
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contract {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.contractText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wall {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.wallText {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    align-items: center;
+    gap: 20px;
+}
+
+.wallText h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.wallText p {
+    color: #7A7A7A;
+}
+
+.firstPair {
+    display: flex;
+    gap: 24px;
+    max-width: 1040px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pairCard {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 12px;
+    background-color: #191919;
+    max-width: 508px;
+    width: 100%;
+}
+
+.pairCont {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+
+.pairCont h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.avatar {
+    display: flex;
+    gap: 12px;
+}
+
+.avatarText {
+    display: flex;
+    flex-direction: column;
+}
+
+.verify {
+    display: flex;
+    gap: 4px;
+}
+
+.verify h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #535862;
+    line-height: 24px;
+}
+
+.avatarText p {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: #535862;
+    line-height: 24px;
+}
+
+.pairCont h1 {
+    color: #FFFFFF;
+}
+
+.form {
+    padding: 64px;
+    border-radius: 16px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1040px;
+    width: 100%;
+    align-items: center;
+}
+
+.formText {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 768px;
+    width: 100%;
+}
+
+.formText h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.formText h2 {
+    font-size: 20px;
+    color: #7A7A7A;
+}
+
+.email {
+    border: 1px solid #7A7A7A;
+    padding: 12px 14px;
+    border-radius: 8px;
+    max-width: 338px;
+    width: 100%;
+    background-color: #0B0B0E;
+}
+
+form {
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.email::placeholder {
+    color: #717680;
+}
+
+form h4 {
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+.formCont {
+    display: flex;
+    gap: 16px;
+}
+
+.formCont button {
+    padding: 12px 24px;
+    background-color: #FF371A;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    height: 41px;
+}
+
+.customize {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1040px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.customizeText {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.customizeText h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.customizeText p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.plan {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.planCard {
+    padding: 40px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+    width: 100%;
+}
+
+.planText {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.planPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.planPrice h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.planPrice h3 {
+    font-family: "Mulish" sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.planText p {
+    color: #7A7A7A;
+    font-size: 14px;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 16px;
+}
+
+.check {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.check p {
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+.planCard button {
+    background-color: #191919;
+    border: 1px solid #FF371A;
+    max-width: 250px;
+    width: 100%;
+    height: 65px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.planCard button:hover {
+    background-color: #FF371A;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pop {
+    padding-top: 5px;
+    background-color: #FF371A;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    height: 30px;
+}
+
+.price {
+    display: flex;
+    gap: 13px;
+    max-width: 434px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.price img {
+    max-width: 32px;
+    width: 100%;
+}
+
+.priceText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.priceText h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.priceText p {
+    color: #7A7A7A;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cardPlanss {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.footerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.amaizingDigitalMarket {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.desing {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.productP {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.solution {
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.productss {
+    display: flex;
+    gap: 16px;
+    max-width: 752px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.bottom {
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.paraghrap {
+    color: #FFF;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  
+}
+.photosBox {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
